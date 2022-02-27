@@ -1,0 +1,753 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+#topRow {
+    display: flex;
+}
+
+.topLogo {
+    padding-left: 2%;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+
+.gap{
+    margin-top: 0%;
+    margin-left: 1%;
+    display: flex;
+    width: 60%;
+}
+
+.gap1, .gap2, .U2 {
+    margin-left: 2%;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: rgb(94,64,79);
+}
+
+.topRightCorner {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.trcImg {
+    margin-top: 5%;
+    margin-right: 0%;
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+
+.gap1 {
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+
+.gap2 {
+    width: 200px;
+    margin-right: 2%;
+    padding-top: 4%;
+    box-sizing: border-box;
+}
+
+.U2 {
+    margin-right: 2%;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.gap1 > h4 {
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: rgb(94,64,79);
+}
+
+.topLining {
+    background-color: rgb(238, 228, 233);
+    margin-left: 70px;
+    width: 1470px;
+    height: 1px;
+    margin-top: -31px;
+}
+
+.topLiningLeft {
+    background-color: rgb(238, 228, 233);
+    width: 60px;
+    height: 1px;
+}
+
+.Nimg > img {
+    width: 450px;
+    height: 700px;
+    z-index: -1;
+    top: 76px;
+    left: 0px;
+    position: absolute;
+}
+
+/* Frame */
+
+#nice {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 1%;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo > img {
+    border-radius: 3%;
+}
+
+.photo {
+    padding-bottom: 10%;
+    margin-left: -7%;
+    box-sizing: border-box;
+}
+
+.logo > img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    padding-left: 190px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.text {
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: -50px;
+}
+
+.text1 {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(145,143,155);
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#wall {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.doIt {
+    display: flex;
+}
+
+.doItAgain {
+    display: flex;
+}
+
+strong {
+    color: rgb(255,102,18);
+}
+
+.textOverImg {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.doItAgain2 {
+    margin-top: 50px;
+}
+
+.doItAgain2Text {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 600px;
+}
+
+.doItAgain2Text2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(94,64,79);
+    margin-top: 20px;
+    margin-left: 610px;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 10px;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-top: 12px;
+    color: rgb(254,82,70);
+    background-color: white;
+    font-weight: bolder;
+}
+
+.arrow:hover {
+    background-color: rgb(254,82,70);
+    color: white;
+}
+
+.photo > img:hover {
+    width: 300px;
+    height: 200px
+}
+
+/* .gap1 > h4:hover {
+    color: white;
+    background-color: rgb(71, 71, 231);
+    border-radius: 50%;
+    border: 5px solid red;
+} */
+
+.arrowDiv {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+.logo > img:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.nextDownLayout1 {
+    display: flex;
+    margin-top: 80px;
+}
+
+.viewAll {
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 45px;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin-left: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: sans-serif;
+    color: rgb(254,82,70);
+}
+
+.viewAll:hover {
+    background-color: rgb(254,82,70);
+    color: white;
+}
+
+.nextDownLayoutTitle {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 120px;
+    color: #38404f;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+.nextDownLayoutTitleDiv {
+    width: 800px
+}
+
+.nextArrowDiv {
+    display: flex;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+.nextDownLayout1Img > img {
+    border-radius: 1%;
+}
+
+.nextDownLayout1Img > h4 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #38404f;
+    margin-bottom: 5px;
+}
+
+.nextDownLayout1Img > h5 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #918f9b;
+    margin-bottom: 5px;
+}
+
+.nextDownLayout1Img {
+    margin-top: 15px;
+}
+
+.letsSee {
+    display: flex;
+    margin-left: 120px;
+}
+
+.letsSeeDiv {
+    margin-right: 20px;
+}
+
+.uniqDiv {
+    width: 30px;
+    height: 25px;
+    border: 2px solid rgb(255,102,18);
+    background-color: rgb(255,102,18);
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 6px;
+    margin-left: -25%;
+    margin-right: 7px;
+    margin-top: 12px;
+}
+
+.uniqDivWhite {
+    width: 7px;
+    height: 7px;
+    background-color: white;
+}
+
+.uniqDiv1 {
+    width: 30px;
+    height: 25px;
+    border: 2px solid black;
+    margin-left: -10%;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+.thirdLayoutText {
+    width: 200px;
+}
+
+.nextDownLayoutTitleDivText > h5 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #38404f;
+    margin-bottom: 5px;
+}
+
+.extendDivSize {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.adjustViewAll {
+    margin-left: 135px;
+}
+
+.firstNextDownLayout {
+    margin-bottom: -20px;
+}
+
+.fourthRow {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.fourthRowImg > img {
+    width: 1300px;
+
+    position: absolute;
+    left: 120px;
+    top: 2000px;
+    z-index: -1;
+}
+
+.fourthRowArrow {
+    margin-top: 22%;
+    margin-left: -1.5%;
+}
+
+.fourthRowArrow2 {
+    margin-top: -3.5%;
+    margin-left: 91%;
+}
+
+.arrow1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-top: 12px;
+    color: rgb(254,82,70);
+    background-color: white;
+    font-weight: bolder;
+}
+
+.arrow1:hover {
+    background-color: rgb(254,82,70);
+    color: white;
+}
+
+/* Fifth Row starts */
+.themes {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    margin-right: 19px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.themes > h3 {
+    margin-top: 10px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+
+}
+
+.fifthRow > h3 {
+    margin-top: 15%;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.themesGallery {
+    display: flex;
+    margin-left: 120px;
+}
+
+.fifthRow {
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.themesImg > img {
+    width: 84px;
+    height: 50px;
+}
+
+.themes:hover {
+    padding-top: 43px
+}
+
+
+/* CSS for sixth row down layout */
+.extendDivSize2 {
+    width: 500px;
+}
+
+.sixthText {
+    margin-top: -365px;
+    text-align: center;
+}
+
+.sixthText h3 {
+    font-size: 31px;
+    line-height: 39px;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 1px 2px #38404f;
+}
+
+.sixthText h4 {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: 2px 1px 2px #38404f;
+}
+
+.contentMargin {
+    margin-top: -50px;
+    margin-bottom: 350px;
+}
+
+/* Eighth Next Row Layout CSS */
+.overview h4 {
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #ff6612;
+    font-family: sans-serif;
+}
+
+.overview h3 {
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #38404f;
+    opacity: .9;
+    font-family: sans-serif;
+}
+
+.knowMoreAbout h3 {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    color: #ff6612;
+    display: block;
+    border-bottom: 1px solid #ff6612;
+}
+
+.aboutSection {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.eighthNextRow {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.knowMoreAbout {
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+.paraLeft p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #3e3e3e;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+}
+
+.paraLeft {
+    width: 47%;
+    padding: 0 15px 50px;
+    float: left;
+    position: relative;
+}
+
+.quickLinks {
+    background: #ff6612;
+    padding: 59px 36px;
+    width: 95%;
+    border-radius: 3px;
+}
+
+.quickLinks h4 {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.quickLinks ul {
+    padding-left: 18px;
+}
+
+.quickLinks ul li {
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: sans-serif;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.aboutPara {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.quickLinks ul li:hover {
+    padding-left: 20px;
+}
+
+
+/* Why Choose Us CSS */
+.main h3 {
+    font-size: 35px;
+    color: #38404f;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.main p {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: #3e3e3e;
+    text-transform: capitalize;
+}
+
+.whyChooseExpertImg img {
+    width: 40px;
+}
+
+.main .whyChooseExpert .whyChooseExpertImg {
+    float: left;
+}
+
+.main .whyChooseExpert .details h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #38404f;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.main .mainClass .whyChooseExpert .details{
+    padding-left: 60px;
+    width: 80%;
+}
+
+.whyChooseExpert {
+    width: 32.6%;
+    margin-right: 1%;
+    float: left;
+}
+
+.mainClass {
+    display: flex;
+}
+
+.main h3, .main .mainText, .main .mainClass {
+    margin-left: 120px;
+}
+
+.main .mainClass {
+    margin-top: 50px;
+}
+
+.main .mainClass .whyChooseExpert {
+    margin-right: -15px;
+}
+
+/* Sticky box */
+.elem1>img {
+    height: 25px;
+}
+
+.elem1 {
+    margin-right: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.elem1 h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #38404f;
+}
+
+#stickyBox {
+    width: 1550px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.last {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+    
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.last:hover {
+    width: 600px;
+    height: 60px;
+}
+
+/* CSS for Footer */
+.footerClass {
+    background: #394048;
+    padding: 40px 0 100px 0;
+    /* float: left; */
+    width: 100%;
+}
+
+.mainSection {
+    width: 324px;
+    /* float: left; */
+    padding-left: 20px;
+    padding-bottom: 22px;
+}
+
+.mainSection > h3, .legal h3, .social > h3 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    color: rgb(150,153,158);
+    font-family: sans-serif;
+}
+
+.socialMediaLogo {
+    width: 2%;
+    height: 3.5%;
+    background-color: red;
+    margin-right: 20px;
+    border-radius: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMediaLogo > img {
+    width: 40px;
+    height: 40px;
+    /* margin-top: -100px; */
+}
+
+.socialMedia {
+    display: flex;
+}
