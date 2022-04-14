@@ -1,6 +1,6 @@
 # TourMyIndia_CLONE
 
-TourMyIndia clone where user see different destinations to visit in India and abroad. This is my first solo project that I built at the starting of learning of web development and completed this project within a week.
+TourMyIndia clone where user can see different destinations to visit in India and abroad. This is my first solo project that I built at the starting of learning of web development and completed this project within a week.
 
 ## Tech Stack
 
@@ -36,11 +36,9 @@ Here the user will interact with different destinations.
 ![r](https://i.ibb.co/28Hbs99/Screenshot-1884.png)
 
 ### 4.
-Here the user can select different food items.
 ![r](https://i.ibb.co/9qnhnKb/Screenshot-1885.png)
 
 ### 5.
-Here user can see different ongoing deals.
 ![r](https://i.ibb.co/7CpYZwd/Screenshot-1888.png)
 
 ### 6.
