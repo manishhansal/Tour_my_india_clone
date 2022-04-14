@@ -1,4 +1,4 @@
-# KFC_WEBSITE_CLONE
+# TourMyIndia_CLONE
 
 TourMyIndia clone where user see different destinations to visit in India and abroad. This is my first solo project that I built at the starting of learning of web development and completed this project within a week.
 
@@ -35,13 +35,13 @@ Here the user will interact with different destinations.
 ### 3.
 ![r](https://i.ibb.co/28Hbs99/Screenshot-1884.png)
 
-### 3.
+### 4.
 Here the user can select different food items.
 ![r](https://i.ibb.co/9qnhnKb/Screenshot-1885.png)
 
-### 4.
+### 5.
 Here user can see different ongoing deals.
 ![r](https://i.ibb.co/7CpYZwd/Screenshot-1888.png)
 
-### 5.
+### 6.
 ![r](https://i.ibb.co/gwJ2w7F/Screenshot-1886.png)
