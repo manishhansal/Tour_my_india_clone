@@ -1,6 +1,6 @@
 # TourMyIndia_CLONE
 
-TourMyIndia clone where user can see different destinations to visit in India and abroad. This is my first solo project that I built at the starting of learning of web development and completed this project within a week.
+TourMyIndia clone where users can see different destinations to visit in India and abroad. This is the first solo project that I built at the start of my learning of web development and completed this project within a week.
 
 ## Tech Stack
 
